@@ -1,0 +1,9 @@
+Handler.php er  public function render($request, Exception $exception)  er moddhe add korte hobe
+
+
+ if($exception instanceof ClientException){
+            $message = $exception->getResponse()->getBody();
+            $code = $exception->getCode();
+
+            return $this->errorMessage($message,$code);
+}

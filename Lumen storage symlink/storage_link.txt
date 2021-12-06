@@ -1,0 +1,3 @@
+ln -s ../storage/app/public storage
+
+https://stackoverflow.com/questions/47772360/how-to-create-symlink-for-storage-public-folder-for-lumen/63382406#63382406
